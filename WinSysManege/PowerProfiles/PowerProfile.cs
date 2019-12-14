@@ -1,8 +1,8 @@
-﻿using System;
-
-namespace WinSysManege.ViewModel
+﻿namespace WinSysManege.PowerProfiles
 {
-    public class PowerProfileViewModel
+    using System;
+
+    public class PowerProfile : IPowerProfile
     {
         public string Name { get; set; }
 

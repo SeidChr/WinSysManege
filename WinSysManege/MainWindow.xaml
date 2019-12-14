@@ -3,19 +3,10 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:WinSysManege"
-        xmlns:viewModel="clr-namespace:WinSysManege.ViewModel"
+        xmlns:powerProfiles="clr-namespace:WinSysManege.PowerProfiles"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <ListBox Margin="0,0,0,0" Name="PowerProfileListBox">
-            <ListBox.ItemTemplate>
-                <DataTemplate DataType="viewModel:PowerProfileViewModel">
-                    <StackPanel Orientation="Vertical">
-                        <TextBlock Text="{Binding Path=Name}" />
-                    </StackPanel>
-                </DataTemplate>
-            </ListBox.ItemTemplate>
-        </ListBox>
+
     </Grid>
 </Window>
